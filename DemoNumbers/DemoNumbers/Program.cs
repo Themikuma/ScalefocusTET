@@ -38,5 +38,19 @@ namespace DemoNumbers
             int c = a % (int)Math.Pow(10, i);
             Console.WriteLine(c);
         }
+
+        static void HomeWorkTask2()
+        {
+            int a = int.Parse(Console.ReadLine());
+
+            //DO STUFF HERE
+            while (a > 0)
+            {
+                //DO STUFF HERE
+                a = a / 10;
+
+                //DO STUFF HERE
+            }
+        }
     }
 }
