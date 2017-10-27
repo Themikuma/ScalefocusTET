@@ -10,13 +10,13 @@ namespace DemoNumbers
     {
         static void Main(string[] args)
         {
-            GetNMinusINumber();
+            GetNthNumber();
         }
         static void GetNthNumber()
         {
             while (true)
             {
-                int a = int.Parse(Console.ReadLine());
+                int a = int.Parse(Console.ReadLine());+33                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       =++++++
                 if (a == 0)
                 {
                     break;
