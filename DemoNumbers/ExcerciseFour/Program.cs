@@ -10,7 +10,7 @@ namespace ExcerciseFour
     {
         static void Main(string[] args)
         {
-            SumNtoM();
+            StringExcercise();
         }
 
         static void SumNtoM()
@@ -25,5 +25,38 @@ namespace ExcerciseFour
             Console.WriteLine(sum);
         }
 
+        static void PrintMatrix()
+        {
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = (i - 1) * n + 1; j <= i * n; j++)
+                {
+                    Console.Write($"{j} ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        static void StringExcercise()
+        {
+            string s = Console.ReadLine();
+            bool isCapitalLetter = true;
+            bool isSmallLetter = true;
+            foreach (var item in s)
+            {
+                isCapitalLetter = true;
+                isSmallLetter = true;
+                if (item < 97 || item > 122)
+                {
+                    isSmallLetter = false;
+                }
+                if (item < 65 || item > 90)
+                {
+                    isCapitalLetter = false;
+                }
+            }
+            Console.WriteLine(isCapitalLetter || isSmallLetter);
+        }
     }
 }

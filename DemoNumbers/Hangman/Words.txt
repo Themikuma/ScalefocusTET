@@ -1,0 +1,9 @@
+﻿drive
+word
+processor
+clock
+cupboard
+cup
+head
+chair
+camera
