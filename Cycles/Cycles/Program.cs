@@ -10,9 +10,6 @@ namespace Cycles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Palindrome(10));
-            Console.WriteLine(Palindrome(11));
-            Palindrome(99);
         }
 
         public static bool Palindrome(int a)

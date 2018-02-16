@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cycles", "Cycles\Cycles.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclesTests", "CyclesTests\CyclesTests.csproj", "{E76DB82B-32B0-4A34-AD14-F7B8BFF78193}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{F626FB15-5523-4AD0-A313-77283CA16788}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E76DB82B-32B0-4A34-AD14-F7B8BFF78193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E76DB82B-32B0-4A34-AD14-F7B8BFF78193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E76DB82B-32B0-4A34-AD14-F7B8BFF78193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F626FB15-5523-4AD0-A313-77283CA16788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F626FB15-5523-4AD0-A313-77283CA16788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F626FB15-5523-4AD0-A313-77283CA16788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F626FB15-5523-4AD0-A313-77283CA16788}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
