@@ -10,17 +10,19 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            string result = CapitalizeEnglishCaption("how i met your mother");
-            string expected = "How I Met Your Mother";
-            Console.WriteLine(result);
-            if (expected.Equals(result))
+            int n = 4;
+            int[,] a = new int[n, n];
+            int p = 0;
+            for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Works");
+                for (int j = 0; j < n; j++)
+                {
+                    a[i, j] = p++;
+                }
             }
-            else
-            {
-                Console.WriteLine("Fail");
-            }
+            var result = ArrayUtilities.GetMaxElementRow(a);
+            ArrayUtilities.PrintArray(result);
+            Console.WriteLine();
         }
 
         static void PrintOneSymbolPerLine()
