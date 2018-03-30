@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE43171F-4317-4B2A-80A1-8E1315D3BF0A}</ProjectGuid>
+    <ProjectGuid>{EFAEB202-82E7-4172-91B0-72084035A3E6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ObjectsAndClasses</RootNamespace>
-    <AssemblyName>ObjectsAndClasses</AssemblyName>
+    <RootNamespace>Library</RootNamespace>
+    <AssemblyName>Library</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pet.cs" />
-    <Compile Include="Species.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="Genre.cs" />
+    <Compile Include="Librarian.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
